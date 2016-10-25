@@ -28,6 +28,10 @@ class ProcessGeneralSettings extends Process implements Module, ConfigurableModu
 				'parent' => 'setup',
 				'title' => 'General settings',
 				),
+			'permission' => 'site-settings-edit', 
+			'permissions' => array(
+				'site-settings-edit' => 'Administer site settings'
+				)
 			);
 	}
 
